@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 300%, 300%;
+  /*Not sure how to correctly position both background image */
+  /* I try coding it the best I can */
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/* Image */
+picture {
+  text-align: center;
+}
+
+.header {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+.profile {
+  border-radius: 50%;
+  border: 0.25rem solid white;
+  object-fit: cover;
+  margin: 5.4rem 7.7rem;
+
+  position: absolute;
+}
+
+/* Container */
+.container {
+  background-color: white;
+  border-radius: 1rem;
+
+  margin: 15.2rem auto;
+  width: 21.5rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Info Div */
+.container .info h1 {
+  margin: 5rem 0 0 0;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.container .info h2 {
+  display: inline;
+  margin-left: 0.5rem;
+  font-weight: lighter;
+  color: hsl(227, 10%, 46%);
+  font-size: 1.17rem;
+}
+
+.container .city {
+  color: hsl(227, 10%, 46%);
+  font-size: 0.9rem;
+  margin-bottom: 1.57rem;
+}
+
+/* Line */
+.border {
+  border-bottom: 0.0063rem solid hsl(0, 6%, 90%);
+  width: 100%;
+}
+
+/* Stats */
+.container .stats p {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 1.5625rem;
+  font-weight: bold;
+  font-size: 1.16rem;
+}
+
+.container .stat-type {
+  font-size: 0.75rem;
+  color: hsl(0, 0%, 59%);
+}
+
+/* Footer */
+.attribution {
+  font-size: 0.7rem;
+  text-align: center;
+  color: #808888;
+  font-style: italic;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  text-decoration: none;
+}
